@@ -11,7 +11,9 @@
 			<string>QLGenerator</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>SUPPORTED_UTI_TYPE</string>
+				<string>dyn.ah62d4rv4ge8047dx</string>
+				<string>dyn.ah62d4rv4ge804qxysq</string>
+				<string>dyn.ah62d46dzqm0gw23ssz1gw8brqz6gn25zsvu0e5dfhk2x45pysq</string>
 			</array>
 		</dict>
 	</array>
@@ -21,10 +23,10 @@
 	<string></string>
 	<key>CFBundleIdentifier</key>
 	<string>com.loghound.${PRODUCT_NAME:rfc1034identifier}</string>
-	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1</string>
 	<key>CFBundleVersion</key>

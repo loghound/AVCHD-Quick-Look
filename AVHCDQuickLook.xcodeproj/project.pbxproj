@@ -7,28 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		540D224E1336DDE700611A75 /* BETaskHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 540D224C1336DDE700611A75 /* BETaskHelper.h */; };
+		540D224F1336DDE700611A75 /* BETaskHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 540D224D1336DDE700611A75 /* BETaskHelper.m */; };
+		540D22D613372D8D00611A75 /* helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 540D22D513372D8D00611A75 /* helpers.h */; };
 		54433A311336919D006A0B39 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54433A301336919D006A0B39 /* QuickLook.framework */; };
 		54433A331336919D006A0B39 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54433A321336919D006A0B39 /* ApplicationServices.framework */; };
 		54433A351336919D006A0B39 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54433A341336919D006A0B39 /* CoreServices.framework */; };
 		54433A371336919D006A0B39 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54433A361336919D006A0B39 /* CoreFoundation.framework */; };
 		54433A3D1336919D006A0B39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54433A3B1336919D006A0B39 /* InfoPlist.strings */; };
-		54433A401336919E006A0B39 /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 54433A3F1336919E006A0B39 /* GenerateThumbnailForURL.c */; };
-		54433A421336919E006A0B39 /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 54433A411336919E006A0B39 /* GeneratePreviewForURL.c */; };
+		54433A401336919E006A0B39 /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 54433A3F1336919E006A0B39 /* GenerateThumbnailForURL.m */; };
+		54433A421336919E006A0B39 /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 54433A411336919E006A0B39 /* GeneratePreviewForURL.m */; };
 		54433A441336919E006A0B39 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 54433A431336919E006A0B39 /* main.c */; };
+		54433A4B133691F1006A0B39 /* ffmpeg in Resources */ = {isa = PBXBuildFile; fileRef = 54433A4A133691F1006A0B39 /* ffmpeg */; };
+		545E637013386DE50056B34D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E636F13386DE50056B34D /* Cocoa.framework */; };
+		54FEA1541337E4370032369B /* BEHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 54FEA1521337E4370032369B /* BEHelper.h */; };
+		54FEA1551337E4370032369B /* BEHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FEA1531337E4370032369B /* BEHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		540D224C1336DDE700611A75 /* BETaskHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BETaskHelper.h; sourceTree = "<group>"; };
+		540D224D1336DDE700611A75 /* BETaskHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BETaskHelper.m; sourceTree = "<group>"; };
+		540D22D513372D8D00611A75 /* helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
 		54433A2D1336919D006A0B39 /* AVHCDQuickLook.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVHCDQuickLook.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
 		54433A301336919D006A0B39 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		54433A321336919D006A0B39 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 		54433A341336919D006A0B39 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		54433A361336919D006A0B39 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		54433A3A1336919D006A0B39 /* AVHCDQuickLook-Info.plist */ = {isa = PBXFileReference; path = "AVHCDQuickLook-Info.plist"; sourceTree = "<group>"; };
+		54433A3A1336919D006A0B39 /* AVHCDQuickLook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AVHCDQuickLook-Info.plist"; sourceTree = "<group>"; };
 		54433A3C1336919D006A0B39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		54433A3E1336919D006A0B39 /* AVHCDQuickLook-Prefix.pch */ = {isa = PBXFileReference; path = "AVHCDQuickLook-Prefix.pch"; sourceTree = "<group>"; };
-		54433A3F1336919E006A0B39 /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
-		54433A411336919E006A0B39 /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		54433A3E1336919D006A0B39 /* AVHCDQuickLook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVHCDQuickLook-Prefix.pch"; sourceTree = "<group>"; };
+		54433A3F1336919E006A0B39 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
+		54433A411336919E006A0B39 /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
 		54433A431336919E006A0B39 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		54433A4A133691F1006A0B39 /* ffmpeg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffmpeg; sourceTree = "<group>"; };
+		545E636F13386DE50056B34D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		54FEA1521337E4370032369B /* BEHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEHelper.h; sourceTree = "<group>"; };
+		54FEA1531337E4370032369B /* BEHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,7 @@
 				54433A331336919D006A0B39 /* ApplicationServices.framework in Frameworks */,
 				54433A351336919D006A0B39 /* CoreServices.framework in Frameworks */,
 				54433A371336919D006A0B39 /* CoreFoundation.framework in Frameworks */,
+				545E637013386DE50056B34D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +81,7 @@
 		54433A2F1336919D006A0B39 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				545E636F13386DE50056B34D /* Cocoa.framework */,
 				54433A301336919D006A0B39 /* QuickLook.framework */,
 				54433A321336919D006A0B39 /* ApplicationServices.framework */,
 				54433A341336919D006A0B39 /* CoreServices.framework */,
@@ -77,10 +93,15 @@
 		54433A381336919D006A0B39 /* AVHCDQuickLook */ = {
 			isa = PBXGroup;
 			children = (
-				54433A3F1336919E006A0B39 /* GenerateThumbnailForURL.c */,
-				54433A411336919E006A0B39 /* GeneratePreviewForURL.c */,
+				540D224C1336DDE700611A75 /* BETaskHelper.h */,
+				540D224D1336DDE700611A75 /* BETaskHelper.m */,
+				54433A3F1336919E006A0B39 /* GenerateThumbnailForURL.m */,
+				54433A411336919E006A0B39 /* GeneratePreviewForURL.m */,
 				54433A431336919E006A0B39 /* main.c */,
 				54433A391336919D006A0B39 /* Supporting Files */,
+				540D22D513372D8D00611A75 /* helpers.h */,
+				54FEA1521337E4370032369B /* BEHelper.h */,
+				54FEA1531337E4370032369B /* BEHelper.m */,
 			);
 			path = AVHCDQuickLook;
 			sourceTree = "<group>";
@@ -88,6 +109,7 @@
 		54433A391336919D006A0B39 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				54433A4A133691F1006A0B39 /* ffmpeg */,
 				54433A3A1336919D006A0B39 /* AVHCDQuickLook-Info.plist */,
 				54433A3B1336919D006A0B39 /* InfoPlist.strings */,
 				54433A3E1336919D006A0B39 /* AVHCDQuickLook-Prefix.pch */,
@@ -102,6 +124,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				540D224E1336DDE700611A75 /* BETaskHelper.h in Headers */,
+				540D22D613372D8D00611A75 /* helpers.h in Headers */,
+				54FEA1541337E4370032369B /* BEHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +142,7 @@
 				54433A291336919D006A0B39 /* Headers */,
 				54433A2A1336919D006A0B39 /* Resources */,
 				54433A2B1336919D006A0B39 /* Rez */,
+				54F87A591336D742001DCB49 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -155,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54433A3D1336919D006A0B39 /* InfoPlist.strings in Resources */,
+				54433A4B133691F1006A0B39 /* ffmpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,14 +197,32 @@
 		};
 /* End PBXRezBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54F87A591336D742001DCB49 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -r ${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME} ~/Library/QuickLook\n\n# set\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		54433A271336919D006A0B39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54433A401336919E006A0B39 /* GenerateThumbnailForURL.c in Sources */,
-				54433A421336919E006A0B39 /* GeneratePreviewForURL.c in Sources */,
+				54433A401336919E006A0B39 /* GenerateThumbnailForURL.m in Sources */,
+				54433A421336919E006A0B39 /* GeneratePreviewForURL.m in Sources */,
 				54433A441336919E006A0B39 /* main.c in Sources */,
+				540D224F1336DDE700611A75 /* BETaskHelper.m in Sources */,
+				54FEA1551337E4370032369B /* BEHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +277,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -249,6 +298,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AVHCDQuickLook/AVHCDQuickLook-Prefix.pch";
@@ -278,6 +331,7 @@
 				54433A491336919E006A0B39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
