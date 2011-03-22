@@ -28,12 +28,12 @@
 		540D224C1336DDE700611A75 /* BETaskHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BETaskHelper.h; sourceTree = "<group>"; };
 		540D224D1336DDE700611A75 /* BETaskHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BETaskHelper.m; sourceTree = "<group>"; };
 		540D22D513372D8D00611A75 /* helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
-		54433A2D1336919D006A0B39 /* AVHCDQuickLook.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVHCDQuickLook.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		54433A2D1336919D006A0B39 /* AVCHDQuickLook.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVCHDQuickLook.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
 		54433A301336919D006A0B39 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		54433A321336919D006A0B39 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 		54433A341336919D006A0B39 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		54433A361336919D006A0B39 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		54433A3A1336919D006A0B39 /* AVHCDQuickLook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AVHCDQuickLook-Info.plist"; sourceTree = "<group>"; };
+		54433A3A1336919D006A0B39 /* AVCHDQuickLook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AVCHDQuickLook-Info.plist"; sourceTree = "<group>"; };
 		54433A3C1336919D006A0B39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		54433A3E1336919D006A0B39 /* AVHCDQuickLook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVHCDQuickLook-Prefix.pch"; sourceTree = "<group>"; };
 		54433A3F1336919E006A0B39 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		54433A2E1336919D006A0B39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54433A2D1336919D006A0B39 /* AVHCDQuickLook.qlgenerator */,
+				54433A2D1336919D006A0B39 /* AVCHDQuickLook.qlgenerator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,7 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				54433A4A133691F1006A0B39 /* ffmpeg */,
-				54433A3A1336919D006A0B39 /* AVHCDQuickLook-Info.plist */,
+				54433A3A1336919D006A0B39 /* AVCHDQuickLook-Info.plist */,
 				54433A3B1336919D006A0B39 /* InfoPlist.strings */,
 				54433A3E1336919D006A0B39 /* AVHCDQuickLook-Prefix.pch */,
 			);
@@ -133,9 +133,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		54433A2C1336919D006A0B39 /* AVHCDQuickLook */ = {
+		54433A2C1336919D006A0B39 /* AVCHDQuickLook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54433A471336919E006A0B39 /* Build configuration list for PBXNativeTarget "AVHCDQuickLook" */;
+			buildConfigurationList = 54433A471336919E006A0B39 /* Build configuration list for PBXNativeTarget "AVCHDQuickLook" */;
 			buildPhases = (
 				54433A271336919D006A0B39 /* Sources */,
 				54433A281336919D006A0B39 /* Frameworks */,
@@ -148,9 +148,9 @@
 			);
 			dependencies = (
 			);
-			name = AVHCDQuickLook;
+			name = AVCHDQuickLook;
 			productName = AVHCDQuickLook;
-			productReference = 54433A2D1336919D006A0B39 /* AVHCDQuickLook.qlgenerator */;
+			productReference = 54433A2D1336919D006A0B39 /* AVCHDQuickLook.qlgenerator */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -158,7 +158,7 @@
 /* Begin PBXProject section */
 		54433A221336919D006A0B39 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 54433A251336919D006A0B39 /* Build configuration list for PBXProject "AVHCDQuickLook" */;
+			buildConfigurationList = 54433A251336919D006A0B39 /* Build configuration list for PBXProject "AVCHDQuickLook" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -170,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54433A2C1336919D006A0B39 /* AVHCDQuickLook */,
+				54433A2C1336919D006A0B39 /* AVCHDQuickLook */,
 			);
 		};
 /* End PBXProject section */
@@ -285,9 +285,9 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AVHCDQuickLook/AVHCDQuickLook-Prefix.pch";
-				INFOPLIST_FILE = "AVHCDQuickLook/AVHCDQuickLook-Info.plist";
+				INFOPLIST_FILE = "AVHCDQuickLook/AVCHDQuickLook-Info.plist";
 				INSTALL_PATH = /Library/QuickLook;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AVCHDQuickLook;
 				WRAPPER_EXTENSION = qlgenerator;
 			};
 			name = Debug;
@@ -305,9 +305,9 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AVHCDQuickLook/AVHCDQuickLook-Prefix.pch";
-				INFOPLIST_FILE = "AVHCDQuickLook/AVHCDQuickLook-Info.plist";
+				INFOPLIST_FILE = "AVHCDQuickLook/AVCHDQuickLook-Info.plist";
 				INSTALL_PATH = /Library/QuickLook;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AVCHDQuickLook;
 				WRAPPER_EXTENSION = qlgenerator;
 			};
 			name = Release;
@@ -315,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		54433A251336919D006A0B39 /* Build configuration list for PBXProject "AVHCDQuickLook" */ = {
+		54433A251336919D006A0B39 /* Build configuration list for PBXProject "AVCHDQuickLook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54433A451336919E006A0B39 /* Debug */,
@@ -324,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54433A471336919E006A0B39 /* Build configuration list for PBXNativeTarget "AVHCDQuickLook" */ = {
+		54433A471336919E006A0B39 /* Build configuration list for PBXNativeTarget "AVCHDQuickLook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54433A481336919E006A0B39 /* Debug */,
