@@ -75,7 +75,7 @@ NSString *makeThumbnailIfNecessary(NSURL *url) {
 }
 
 NSString *pathToFFMPEG() {
-	NSBundle *thisBundle=[NSBundle bundleWithIdentifier:@"com.loghound.AVHCDQuickLook"];
+	NSBundle *thisBundle=[NSBundle bundleWithIdentifier:@"com.loghound.AVCHDQuickLook"];
 	NSString *ret=[thisBundle pathForResource:@"ffmpeg" ofType:@""];
 	return ret;
 

@@ -61,9 +61,9 @@ NSString *makeMovieIfNecessary(NSURL *url,QLPreviewRequestRef preview) {
 	NSTask *task = [[[NSTask alloc] init] autorelease];   // BETaskHelper will retain it for us
     [task setLaunchPath:ffmpeg];
 	
-	// ./ffmpeg -i 00020.MTS      mov.mov
+	// ./ffmpeg -i 00020.MTS -threads 4 -y     mov.mov
 	// used to have -r 60  -s wvga but 60 fps/wvga just don't make sense
-	NSArray *args=[NSArray arrayWithObjects:@"-y",@"-i",[urlToFile path],fname,nil];
+	NSArray *args=[NSArray arrayWithObjects:@"-y",@"-threads",@"4",@"-i",[urlToFile path],fname,nil];
 				
 	[task setArguments:args];
 	BEHelper *helper=[[BEHelper new]autorelease];
