@@ -106,22 +106,8 @@ NSString *makeMovieIfNecessary(NSURL *url,QLPreviewRequestRef preview) {
 
 BOOL checkExpire (){
 	
-#define EXPIREAFTERDAYS 27
+#define EXPIREAFTERDAYS 0
 	
-#if EXPIREAFTERDAYS   
-	// Idea from Brian Cooke.
-	NSString* nowString =
-	[NSString stringWithUTF8String:__DATE__];
-	NSCalendarDate* nowDate =
-	[NSCalendarDate dateWithNaturalLanguageString:nowString];
-	NSCalendarDate* expireDate =
-	[nowDate dateByAddingTimeInterval:(60*60*24* EXPIREAFTERDAYS)];
-	
-	if ([expireDate earlierDate:[NSDate date]] == expireDate)
-	{
-		return YES;
-	}
-#endif
 	return NO;
 	
 }

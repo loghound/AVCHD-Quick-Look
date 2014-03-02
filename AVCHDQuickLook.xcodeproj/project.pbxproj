@@ -158,6 +158,8 @@
 /* Begin PBXProject section */
 		54433A221336919D006A0B39 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 54433A251336919D006A0B39 /* Build configuration list for PBXProject "AVCHDQuickLook" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -209,7 +211,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cp -r ${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME} ~/Library/QuickLook\n\n# set\n";
+			shellScript = "echo ${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\ncp -r ${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME} ~/Library/QuickLook\nqlmanage -r\n\n# set\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
